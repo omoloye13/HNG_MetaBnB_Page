@@ -1,5 +1,5 @@
 import card_1 from "../Images/hero_card_1.png"
-import card_2 from "../Images/hero_card_2.png"
+import card_2 from "../Images/Group 46.png"
 
 
 
@@ -20,7 +20,7 @@ const Heros = () => {
             comfort zone
           </p>
 
-          <div className="d-flex flex-md-row flex-sm-column mt-4">
+          <div className="blow mt-4">
             <input
               type="text"
               placeholder="Search for location"
@@ -30,8 +30,8 @@ const Heros = () => {
           </div>
         </div>
         <div className="second">
-            <img src={card_1} alt="" className="hero_card_one" />
-            <img src={card_2} alt="" />
+            <img src={card_1} alt="card_one" className="hero_card_one" />
+            <img src={card_2} alt="card_two" className="hero_card_two"/>
             
 
         </div>

@@ -6,10 +6,13 @@
 }
 /* NAVBAR STYLES */
 .navbar-nav {
-  margin-left: 8em;
+  margin-left: 5em;
   margin-top: 1em;
 }
+.navbar{
+  background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
 
+}
 .nav-link {
   padding-right: 1.5em !important;
   font-size: 20px !important;
@@ -18,9 +21,12 @@
   color: #434343;
 
 }
+.navbar-brand{
+  margin-left: 3em;
+}
 
 .con {
-  margin-right: 10em !important;
+  margin-right: 5em !important;
   font-size: 16px !important;
   font-weight: 400 !important;
   line-height: 20px !important;
@@ -30,13 +36,16 @@
   height: 48px;
   width: 170px;
   text-align: center !important;
+  padding: 0.8em !important;
 }
 /* HERO STYLES */
 .heros{
   display: flex;
+  margin-top: 10em;
 }
 .first {
   padding: 2.5em;
+  margin-left: 2.5em;
 
 }
 
@@ -58,6 +67,9 @@
   font-size: 24px;
   line-height: 35px;
   color: #434343;
+}
+.blow{
+  display: flex;
 }
 
 .form {
@@ -94,23 +106,64 @@ left: 388.71435546875px;
 top: 346px;
 }
 .second{
-  margin-right: 5em !important;
+  margin-right: 7em !important;
   display: flex;
 }
 .hero_card_one{
   margin-top: 5em;
 border-radius: 15px;
 margin-right: 0.5em;
+
+}
+.hero_card_two{
+  border-radius: 15px;
+
+}
+/* MID STYLES */
+.middle{
+background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+display: flex;
+justify-content: space-around;
+height: 69.99900817871094px;
+border-radius: 0px;
+padding: 10px 100px 10px 100px;
+margin-top: 4em;
 }
 
+/* CARD STYLES */
+.card{
+  width: 292px;
+  height: 372px;
+  background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+border: 1px solid #D7D7D7;
+border-radius: 15px;
+}
+/* PAGES STYLES */
+/* AIR STYLES */
+.air{
+  background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+}
+.card-body{
+  display: flex;
+  justify-content: space-between;
+  border: solid red !important;
+}
 @media(max-width:650px) {
   /* NAVBAR */
   .offcanvas {
     width: 60% !important;
   }
-
-  .navbar-nav {
+  .navbar{
+    margin-left: 0em !important;
+    width: 100% !important;
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  
+  }
+  .navbar-brand{
     margin-left: 0em;
+  }
+  .navbar-nav {
+    margin-left: 0em !important;
     margin-top: 0em;
   }
 
@@ -125,11 +178,29 @@ margin-right: 0.5em;
   /* heros */
   .heros{
     display: flex;
-    width: 100%;
+    flex-direction: column;
     /* height: 200vh; */
   }
+  .first {
+    margin-top: 0em !important;
+    padding: 0em;
+    margin-left: 1em;
+  
+  }
   .second{
-    display: none !important;
+    width: 90% !important;
+    margin: auto !important;
+ 
+    
+  }
+  .hero_card_one{
+    margin-top: 5em;
+  border-radius: 15px;
+  margin-right: 0em;
+  width: 50%;
+  }
+  .hero_card_two{
+    width: 50%;
   }
   .header {
     font-style: normal;
@@ -138,4 +209,49 @@ margin-right: 0.5em;
     line-height: 100% !important;
     color: #434343;
   }
+  .blow{
+    display: flex;
+    flex-direction: column;
+  }
+  
+.form {
+  background: rgba(247, 247, 247, 0.1);
+  border: 1px solid #A3A3A3;
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #B8B8B8;
+padding: 0.5em;
+  height: 54px;
+  width: 90%;
 }
+
+
+.btn {
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
+ border-radius: 15px !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF !important;
+  height: 54px;
+width: 90%;
+margin-top: 0.5em;
+margin-bottom: 2em;
+}
+  /* MID  */
+    /* MID STYLES */
+.middle{
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  display: flex;
+  flex-direction: column;
+  height:30vh;
+  border-radius: 0px;
+  padding: 10px 100px 10px 100px;
+  }
+ 
+  }

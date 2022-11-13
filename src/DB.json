@@ -1,0 +1,43 @@
+{
+       "homecards" :[
+           {
+               "imgs":"../Images/homecard_1.png",
+               "title1": "Desert King",  
+               "title2": "1MBT per night",    
+              "text1": "2345km away"	,
+              "text2": "available for 2weeks stay"	
+
+           },
+           {
+               "imgs":"../Images/homecard_2.png",
+               "title1": "Desert King",  
+               "title2": "1MBT per night",    
+              "text1": "2345km away"	,
+              "text2": "available for 2weeks stay"	
+              
+           },
+           {
+               "imgs":"../Images/homecard_3.png",
+               "title1": "Desert King",  
+               "title2": "1MBT per night",    
+              "text1": "2345km away"	,
+              "text2": "available for 2weeks stay"	
+
+           },
+           {
+            "imgs":"../Images/homecard_4.png",
+            "title1": "Desert King",  
+               "title2": "1MBT per night",    
+              "text1": "2345km away"	,
+              "text2": "available for 2weeks stay"	
+            
+           }
+           
+       ]
+   
+   }
+   
+   
+   
+   
+   
