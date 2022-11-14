@@ -1,5 +1,4 @@
 import logo from "../Images/logo.png";
-
 const NavBar = () => {
   return (
     <>
@@ -68,6 +67,7 @@ const NavBar = () => {
           </div>
         </div>
       </nav>
+      
     </>
   );
 };
