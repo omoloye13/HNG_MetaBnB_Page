@@ -3,7 +3,7 @@ const Meta = () => {
   return (
     <>
       <main>
-        <div className="bubble">
+        <div className="bubble" id="nft">
           <div className="pills">
             <div className="flow-1">
               <h1 className="header_three">Metabnb NFTs</h1>

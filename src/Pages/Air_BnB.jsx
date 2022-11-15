@@ -1,4 +1,5 @@
 import {Card, CardMultiply} from "../Components/Cards";
+import Footer from "../Components/Footer";
 import Heros from "../Components/Heros";
 import Meta from "../Components/Meta";
 import Mid from "../Components/Mid";
@@ -14,6 +15,7 @@ const AirBnb = () => {
                 <CardMultiply/>
                 <Card />
                 <Meta />
+                <Footer />
             </div>
 
         </main>

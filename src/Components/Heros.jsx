@@ -7,7 +7,7 @@ import card_2 from "../Images/Group 46.png"
 const Heros = () => {
   return (
     <>
-      <div className="heros">
+      <div className="heros" id="home">
         <div className="first">
           <h1 className="header">
             Rent a <span className="head">Place</span> away from{" "} 

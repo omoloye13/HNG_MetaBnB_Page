@@ -141,8 +141,10 @@ border-radius: 15px;
 }
 .bliss{
   /* margin-left: 0em; */
-  width: 80% !important;
-  margin: auto;
+  width: 100% !important;
+  display: flex;
+  justify-content: space-around;
+  /* margin: auto; */
 }
 .header_two{
   font-style: normal;
@@ -241,7 +243,7 @@ margin-top: 2em;
   background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
 }
 
-@media(max-width:768px) {
+@media(max-width:820px) {
   /* NAVBAR */
   .offcanvas {
     width: 60% !important;

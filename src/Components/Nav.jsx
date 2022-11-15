@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 // import { HashScroll } from "react-hash-scroll";
 import Modal from "react-bootstrap/Modal";
 import logo from "../Images/logo.png";
@@ -6,22 +6,11 @@ import metamask from "../Images/metamask.png";
 import wallet from "../Images/wallet.png"
 import arrow from "../Images/fwd_arrow.png"
 import { Link } from "react-router-dom";
-const NavBar = (props) => {
+const Nav = (props) => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  // const heros =useRef(null);
-  // const bubble =useRef(null);
-  // const bliss =useRef(null);
-
-  
-  // const ScrollToSection = (elementRef)  =>{
-  //   window.scrollTo ({
-  //     top: elementRef.current.offsetTop,
-  //     behavior:"smooth"
-  //   })
-  // }
   return (
     <>
       <nav className="navbar navbar-expand-lg fixed-top">
@@ -56,24 +45,24 @@ const NavBar = (props) => {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-between flex-grow-1">
                 <li className="nav-item">
-                  <a  className="nav-link" aria-current="page" href="#home">
+                  <Link to="/" className="nav-link" aria-current="page" href="#">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="place" className="nav-link" href="#">
+                  <Link to="" className="nav-link" href="#">
                     Place to stay
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a  className="nav-link" href="#nft">
+                  <Link to="" className="nav-link" href="#">
                     NFTs
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a  className="nav-link" href="#heroes">
+                  <Link to="" className="nav-link" href="#">
                     Community
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <div className="flex justify-content-start">
@@ -125,4 +114,4 @@ const NavBar = (props) => {
     </>
   );
 };
-export default NavBar;
+export default Nav;

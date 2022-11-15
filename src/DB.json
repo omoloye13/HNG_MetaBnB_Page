@@ -1,6 +1,8 @@
 {
        "homecards" :[
            {
+            
+               "id":"1",
                "imgs":"../Images/homecard_1.png",
                "title1": "Desert King",  
                "title2": "1MBT per night",    
@@ -9,6 +11,7 @@
               "star":"../Images/stars.png"
            },
            {
+            "id":"2",
                "imgs":"../Images/homecard_2.png",
                "title1": "Desert King",  
                "title2": "1MBT per night",    
@@ -17,6 +20,7 @@
               "star":"../Images/stars.png"
            },
            {
+            "id":"3",
                "imgs":"../Images/homecard_3.png",
                "title1": "Desert King",  
                "title2": "1MBT per night",    
@@ -25,6 +29,7 @@
               "star":"../Images/stars.png"
            },
            {
+            "id":"4",
             "imgs":"../Images/homecard_4.png",
             "title1": "Desert King",  
                "title2": "1MBT per night",    
@@ -37,6 +42,7 @@
 
        "homecardss" :[
         {
+         "id":"5",
             "imgs":"../Images/homecard_5.png",
             "title1": "Desert King",  
             "title2": "1MBT per night",    
@@ -45,6 +51,7 @@
            "star":"../Images/stars.png"
         },
         {
+         "id":"6",
             "imgs":"../Images/homecard_6.png",
             "title1": "Desert King",  
             "title2": "1MBT per night",    
@@ -53,6 +60,7 @@
            "star":"../Images/stars.png"
         },
         {
+         "id":"7",
             "imgs":"../Images/homecard_7.png",
             "title1": "Desert King",  
             "title2": "1MBT per night",    
@@ -61,6 +69,7 @@
            "star":"../Images/stars.png"
         },
         {
+         "id":"8",
          "imgs":"../Images/homecard_8.png",
          "title1": "Desert King",  
             "title2": "1MBT per night",    
@@ -69,7 +78,124 @@
            "star":"../Images/stars.png"            
         }
         
-    ]
+    ],
+    "cards" :[
+      {
+       "id":"9",
+          "imgs":"../Images/card_1.png",
+          "title1": "Desert King",  
+          "title2": "1MBT per night",    
+         "text1": "2345km away"	,
+         "text2": "available for 2weeks stay",
+         "star":"../Images/stars.png"
+      },
+      {
+       "id":"10",
+          "imgs":"../Images/card_2.png",
+          "title1": "Desert King",  
+          "title2": "1MBT per night",    
+         "text1": "2345km away"	,
+         "text2": "available for 2weeks stay",
+         "star":"../Images/stars.png"
+      },
+      {
+       "id":"11",
+          "imgs":"../Images/card_3.png",
+          "title1": "Desert King",  
+          "title2": "1MBT per night",    
+         "text1": "2345km away"	,
+         "text2": "available for 2weeks stay",
+         "star":"../Images/stars.png"
+      },
+      {
+       "id":"12",
+       "imgs":"../Images/homecard_8.png",
+       "title1": "Desert King",  
+          "title2": "1MBT per night",    
+         "text1": "2345km away"	,
+         "text2": "available for 2weeks stay",
+         "star":"../Images/stars.png"            
+      }
+
+   ],
+   "cardss" :[
+      {
+       "id":"13",
+          "imgs":"../Images/card_5.png",
+          "title1": "Desert King",  
+          "title2": "1MBT per night",    
+         "text1": "2345km away"	,
+         "text2": "available for 2weeks stay",
+         "star":"../Images/stars.png"
+      },
+      {
+       "id":"14",
+          "imgs":"../Images/card_6.png",
+          "title1": "Desert King",  
+          "title2": "1MBT per night",    
+         "text1": "2345km away"	,
+         "text2": "available for 2weeks stay",
+         "star":"../Images/stars.png"
+      },
+      {
+       "id":"15",
+          "imgs":"../Images/card_7.png",
+          "title1": "Desert King",  
+          "title2": "1MBT per night",    
+         "text1": "2345km away"	,
+         "text2": "available for 2weeks stay",
+         "star":"../Images/stars.png"
+      },
+      {
+       "id":"16",
+       "imgs":"../Images/card_8.png",
+       "title1": "Desert King",  
+          "title2": "1MBT per night",    
+         "text1": "2345km away"	,
+         "text2": "available for 2weeks stay",
+         "star":"../Images/stars.png"            
+      }
+
+   ],
+   "placecards" :[
+      {
+       "id":"17",
+          "imgs":"../Images/card_9.png",
+          "title1": "Desert King",  
+          "title2": "1MBT per night",    
+         "text1": "2345km away"	,
+         "text2": "available for 2weeks stay",
+         "star":"../Images/stars.png"
+      },
+      {
+       "id":"18",
+          "imgs":"../Images/card_10.png",
+          "title1": "Desert King",  
+          "title2": "1MBT per night",    
+         "text1": "2345km away"	,
+         "text2": "available for 2weeks stay",
+         "star":"../Images/stars.png"
+      },
+      {
+       "id":"19",
+          "imgs":"../Images/card_11.png",
+          "title1": "Desert King",  
+          "title2": "1MBT per night",    
+         "text1": "2345km away"	,
+         "text2": "available for 2weeks stay",
+         "star":"../Images/stars.png"
+      },
+      {
+       "id":"20",
+       "imgs":"../Images/card_12.png",
+       "title1": "Desert King",  
+          "title2": "1MBT per night",    
+         "text1": "2345km away"	,
+         "text2": "available for 2weeks stay",
+         "star":"../Images/stars.png"            
+      }
+
+   ]
    
    }
    
