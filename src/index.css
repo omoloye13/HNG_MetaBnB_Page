@@ -205,6 +205,11 @@
   color: #fff !important;
 }
 @media(max-width:820px) {
+  .places {
+  background-color: #ffff;
+  height: 400vh;
+}
+
   .bg-footer {
     background-color: #1D1D1E;
     height: 150vh;
