@@ -13,7 +13,7 @@ const Nav = (props) => {
   const handleShow = () => setShow(true);
   return (
     <>
-      <nav className="navbar navbar-expand-lg fixed-top">
+      <nav className="navbar navbar-expand-lg fixed-top mb-5">
         <div className="container-fluid">
           <Link to="/" className="navbar-brand">
             <img src={logo} alt="meta_bnb_logo" />

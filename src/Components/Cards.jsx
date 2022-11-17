@@ -3,7 +3,7 @@ export const CardBase = (props) => {
   const { title1, title2, text1, text2, imgs, star } = props;
   return (
     <>
-      <div className="bliss" >
+      <div className="bliss" id="heroes">
         <div className="card m-0 p-0">
           <img className="card-img-top" src={imgs} alt="Card image cap" />
           <div className="card-body one m-0 p-2">
@@ -24,7 +24,7 @@ export const CardBase = (props) => {
 };
 export const CardMultiply = () => {
   return (
-    <div className="row m-0 mapper mt-5" id="heroes">
+    <div className="row m-0 mapper mt-5">
       <h1 className="header_two">Inspiration for your next adventure</h1>
       {DB.homecards.map((homecard) => {
         return (
